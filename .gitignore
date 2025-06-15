@@ -192,3 +192,14 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+
+# don't upload content of data folder to avoid wasting git space
+data/raw-img
+data/processed
+data/data.zip
+
+# exempt big models from uploading
+models/resnet2_small_finetuned.keras
+models/conv4invto128_dense256.keras
+models/effnetv2s_small.keras 
