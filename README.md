@@ -31,7 +31,7 @@ For comparison, below the model sizes:
   - rescaling and reformating of images to 224x224x3 RGB
   - creation of csv for cleaned data (<data/overview.csv>)
 - [02-CNN-modeltraining.ipynb](02-CNN-modeltraining.ipynb): contains a variety of handbuilt CNNs
-- [03-Transfer Learning.ipynb](./03-Transfer Learning.ipynb): contains the transfer learning models and some summary and additional mini-test at the end 
+- [03-Transfer Learning.ipynb]('./03-Transfer Learning.ipynb'): contains the transfer learning models and some summary and additional mini-test at the end 
 - [auxiliary.py](auxiliary.py): various auxiliary functions for notebooks 02 and 03 (encapsulation is not ideal, contains some global variables that need to be kept consistent with the notebooks)
 - [results.csv](results.csv): table of training and test results
 - [results_200_200.csv](results_200_200.csv): table of earlier results working with 200x200 image size 
