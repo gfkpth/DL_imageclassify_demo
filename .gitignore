@@ -203,3 +203,6 @@ data/data.zip
 models/resnet2_small_finetuned.keras
 models/conv4invto128_dense256.keras
 models/effnetv2s_small.keras 
+models/mobnet_dense256_base.keras 
+models/mobnet2_anim_basic.keras
+models/mobnet2_dense256_base.keras
