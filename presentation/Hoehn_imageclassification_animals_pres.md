@@ -480,6 +480,7 @@ Dense & (None, 10) & 2,570  \\
 
 ### 
 
+- use `sparse-categorical-crossentropy` loss function for label encoding and `sparse-categorical-crossentropy` for one-hot-encoding ([check here](<https://medium.com/@shireenchand/choosing-between-cross-entropy-and-sparse-cross-entropy-the-only-guide-you-need-abea92c84662>))
 - adding function definitions mid-project is time-consuming
   - same for modifications influencing the interfaces (changes to arguments or return values)
   - good to take decisions to outsource to functions (and separate file) early, otherwise it can be hard to get rid of dependencies/global variables etc.
